@@ -32,6 +32,7 @@ const useCrudCart = () => {
   }
 
   const updateProductInCart = (id, data) => {
+    
     const URL_BASE = import.meta.env.VITE_REACT_APP_URL
     const url = `${URL_BASE}/cart/${id}`
 

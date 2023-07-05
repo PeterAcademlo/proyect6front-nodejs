@@ -31,8 +31,8 @@ const CardProduct = ({ product }) => {
   return (
     <article className='product'>
       <header className='product__header' onClick={handleSelectProduct}>
-        <img className='header__img image1' src={product?.productImgs[0].url} alt={product.title} />
-        <img className='header__img image2' src={product?.productImgs[0].url} alt={product.title} />
+      <img  className='header__img image1'  src={product?.productImgs[0].url}  alt={product.title}  />
+      <img  className='header__img image2'  src={product?.productImgs[1].url}  alt={product.title}  />
       </header>
       <section className='product__body'>
         <div className='product__name'>
