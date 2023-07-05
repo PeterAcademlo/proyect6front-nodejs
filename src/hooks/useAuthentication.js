@@ -5,7 +5,7 @@ const useAuthentication = () => {
   const createNewUser = data => {
     
     const URL_BASE = import.meta.env.VITE_REACT_APP_URL
-  	const url = `${URL_BASE}/users/login`
+  	const url = `${URL_BASE}/users`
 
     axios.post(url, data)
       .then(res => console.log(res.data))
